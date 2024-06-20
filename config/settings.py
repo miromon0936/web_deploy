@@ -121,15 +121,15 @@ USE_TZ = True
 
 #Server uchun
 
-STATIC_ROOT="/home/omonovmu/omonovm.uz/django/staticfiles"
-STATICFILES_DIRS=("/home/omonovmu/omonovm.uz/django/static",)
+STATIC_ROOT="/home/omonovmu/omonovm.uz/web/staticfiles"
+STATICFILES_DIRS=("/home/omonovmu/omonovm.uz/web/static",)
 
 MEDIA_URL='/media/'
 
 #MEDIA_ROOT=BASE_DIR / 'media'
 
 #Server uchun
-MEDIA_ROOT="/home/omonovmu/omonovm.uz/django/media"
+MEDIA_ROOT="/home/omonovmu/omonovm.uz/web/media"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
